@@ -1,0 +1,3 @@
+const i="calculateDistanceCoordinates",u="Considere dois pontos no espa\xE7o 2D com as seguintes coordenadas: A(x 1 , y 1 ) e B(x 2 ,y 2 ). Escreva um programa que calcule tal dist\xE2ncia para coordenadas de dois pontos informados pelo usu\xE1rio.";function p(){const o=prompt(`Primeira coordenada
+Coloque coordenada x e separando por virgula (ex: 0, 1) `).split(","),e=Number(o[0]),n=Number(o[1]),a=prompt(`Segunda coordenada
+Coloque coordenada x e separando por virgula (ex: 0,1) `).split(","),r=Number(a[0]),t=Number(a[1]),s=Math.sqrt((e-r)**2+(n-t)**2);alert(`Dist\xE2ncia: ${s}`)}export{i as name,u as question,p as solution};
