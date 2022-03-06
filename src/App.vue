@@ -1,8 +1,9 @@
 <script setup>
 import { ref } from 'vue';
 
-import Header from './components/Header.vue';
+import HeaderApp from './components/Header.vue';
 import Question from './components/Question.vue';
+import GithubButton from './components/GithubButton.vue';
 
 const answers = ref([]);
 const answerFiles = import.meta.glob('./answers/*.js');
@@ -22,7 +23,8 @@ for (const answer in answerFiles) {
 </script>
 
 <template>
-  <Header />
+  <github-button />
+  <header-app />
   <main>
     <h1>Soluções dos exercícios</h1>
     <question
