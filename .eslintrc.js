@@ -26,5 +26,6 @@ module.exports = {
     'vue/no-multiple-template-root': 'off',
     'no-eval': 'off',
     'vue/multi-word-component-names': 'off',
+    'import/no-extraneous-dependencies': 'off',
   },
 };

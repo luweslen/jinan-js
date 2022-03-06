@@ -21,7 +21,7 @@ function solution() {
     ),
   );
 
-  alert(`Distância: ${result}`);
+  alert(`Distancia: ${result}`);
 }
 
 export { name, question, solution };

@@ -13,7 +13,7 @@ function solution() {
   const rows = rowsMatrix.length;
   const columns = rowsMatrix[0].split(' ').length;
 
-  alert(`Essa é uma matriz de dimensão ${rows} x ${columns}`);
+  alert(`Essa e uma matriz de dimensao ${rows} x ${columns}`);
 }
 
 export { name, question, solution };
