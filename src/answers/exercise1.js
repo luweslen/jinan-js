@@ -4,20 +4,17 @@ const question = 'Escreva um programa que mostre a soma de todos os divisores de
 function solution() {
   const number = prompt('Inisira um número: ');
 
-  if (typeof (number) !== 'number') {
-    alert('Valor não é númerico');
-  } else {
-    let sum = 0;
-    let sumString = '';
+  let sum = 0;
+  let sumString = '';
 
-    for (let index = 1; index < number; index += 1) {
-      if (number % index === 0) {
-        sum += index;
-        sumString += ` ${index} +`;
-      }
+  for (let index = 1; index < number; index += 1) {
+    if (number % index === 0) {
+      sum += index;
+      sumString += ` ${index} +`;
     }
-    alert(`Soma dos divisores de ${number}: ${sumString.slice(0, -1)} = ${sum}`);
   }
+
+  alert(`Soma dos divisores de ${number}: ${sumString.slice(0, -1)} = ${sum}`);
 }
 
 export { name, question, solution };

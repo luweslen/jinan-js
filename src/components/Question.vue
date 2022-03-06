@@ -57,7 +57,9 @@ function handleRunSolution(solutionRaw) {
     font-weight: 700;
     padding: 8px;
 
-    white-space: wrap;
+    font-family: Consolas, "Andale Mono WT";
+    white-space: pre-wrap;
+
   }
 
   button {
